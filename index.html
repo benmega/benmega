@@ -1,0 +1,263 @@
+<!--
+  File: resume.html
+  Name: Ben Mega
+  Type: Personal resume webpage (single-file HTML)
+  Location: Udon Thani, Thailand
+  Summary: Ben Mega is a Computer Science teacher focused on practical programming and classroom automation. Experienced with Python, JavaScript, and AWS; builds clear, maintainable learning resources and student-facing tools.
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ben Mega — CS Teacher</title>
+    <meta name="description" content="Resume — Ben Mega, CS Teacher. Python, JavaScript, AWS. Udon Thani, Thailand." />
+    <style>
+        :root{
+            --bg: #ffffff;
+            --muted: #6b7280;
+            --accent: #0f62fe;
+            --card: #f8fafc;
+            --text: #0f172a;
+            --maxw: 900px;
+            --pad: 20px;
+            --radius: 12px;
+            --print-font-size: 12pt;
+        }
+
+        *{box-sizing:border-box}
+        html,body{height:100%}
+        body{
+            margin:0;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+            color:var(--text);
+            background:var(--bg);
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale;
+            line-height:1.45;
+            padding:20px;
+            display:flex;
+            justify-content:center;
+        }
+
+        .sheet{
+            width:100%;
+            max-width:var(--maxw);
+            background:linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,1));
+            border-radius:var(--radius);
+            padding:24px;
+            box-shadow:0 6px 24px rgba(15,23,42,0.06);
+            border:1px solid rgba(15,23,42,0.04);
+        }
+
+        header[role="banner"]{
+            display:flex;
+            flex-wrap:wrap;
+            gap:12px;
+            align-items:center;
+            justify-content:space-between;
+            margin-bottom:12px;
+        }
+
+        .name{
+            display:flex;
+            flex-direction:column;
+            gap:6px;
+            min-width:0;
+        }
+
+        h1{
+            font-size:1.5rem;
+            margin:0;
+            line-height:1.05;
+            letter-spacing:-0.02em;
+        }
+
+        .role{
+            font-size:0.95rem;
+            color:var(--muted);
+            margin:0;
+        }
+
+        .contact{
+            display:flex;
+            gap:12px;
+            align-items:center;
+            flex-wrap:wrap;
+        }
+
+        a.contact-link{
+            color:var(--accent);
+            text-decoration:none;
+            font-size:0.95rem;
+        }
+
+        main[role="main"]{
+            display:grid;
+            grid-template-columns:1fr;
+            gap:18px;
+        }
+
+        .profile{
+            background:var(--card);
+            padding:14px;
+            border-radius:10px;
+            border:1px solid rgba(15,23,42,0.03);
+        }
+
+        .columns{
+            display:grid;
+            grid-template-columns: 1fr;
+            gap:16px;
+        }
+
+        .card{
+            padding:14px;
+            border-radius:10px;
+            border:1px solid rgba(15,23,42,0.03);
+            background:transparent;
+        }
+
+        h2{
+            font-size:1rem;
+            margin:0 0 10px 0;
+            color:var(--text);
+        }
+
+        ul.skill-list{
+            list-style:none;
+            padding:0;
+            margin:0;
+            display:flex;
+            gap:8px;
+            flex-wrap:wrap;
+        }
+
+        ul.skill-list li{
+            background:rgba(15,98,254,0.08);
+            color:var(--accent);
+            padding:6px 10px;
+            border-radius:999px;
+            font-size:0.9rem;
+        }
+
+        dl{margin:0}
+        dt{font-weight:600}
+        dd{margin:6px 0 12px 0;color:var(--muted)}
+
+        .edu-item{
+            margin-bottom:8px;
+        }
+
+        .print-hide{display:inline-block}
+
+        /* Desktop: two-column layout */
+        @media (min-width:760px){
+            main[role="main"]{
+                grid-template-columns: 2fr 1fr;
+                gap:20px;
+            }
+            .columns{grid-template-columns:1fr}
+            .profile{grid-column:1 / -1}
+            .print-hide{display:inline-block}
+        }
+
+        /* Accessibility helpers */
+        .sr-only{
+            position:absolute!important;
+            width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;
+        }
+
+        /* Print styles */
+        @media print{
+            :root{font-size:var(--print-font-size)}
+            body{padding:0}
+            .sheet{
+                box-shadow:none;
+                border:none;
+                border-radius:0;
+                padding:0;
+                max-width:100%;
+            }
+            a::after{content:" (" attr(href) ")"; font-size:inherit;}
+            .print-hide{display:none !important}
+            header, main, .card{page-break-inside:avoid}
+        }
+    </style>
+</head>
+<body>
+    <div class="sheet" role="document" aria-labelledby="nameHeading">
+        <header role="banner" aria-label="Resume header">
+            <div class="name">
+                <h1 id="nameHeading">Ben Mega</h1>
+                <p class="role" aria-label="Job title">CS Teacher</p>
+                <p class="role" aria-label="Location">Udon Thani, Thailand</p>
+            </div>
+
+            <div class="contact" aria-label="Contact information">
+                <a class="contact-link" href="mailto:benmega@gmail.com">benmega@gmail.com</a>
+                <span class="contact-link print-hide" aria-hidden="true">•</span>
+                <a class="contact-link" href="tel:+66000000000" aria-hidden="true" tabindex="-1" class="print-hide">+66 ••• ••••</a>
+            </div>
+        </header>
+
+        <main role="main" aria-label="Main content">
+            <section class="profile card" aria-labelledby="summaryHeading">
+                <h2 id="summaryHeading">Summary</h2>
+                <p>
+                    Practical Computer Science teacher with a focus on problem solving and student-centered projects.
+                    Builds maintainable lessons and automation tools using Python and JavaScript. Familiar with AWS for simple cloud integrations.
+                </p>
+            </section>
+
+            <section class="card" aria-labelledby="experienceHeading">
+                <h2 id="experienceHeading">Selected Experience</h2>
+                <div>
+                    <strong>Computer Science Teacher</strong>
+                    <div class="muted" style="color:var(--muted);font-size:0.95rem;margin-top:4px">Classroom & project-based instruction</div>
+                    <p style="margin-top:8px">Design and deliver lessons in programming fundamentals. Mentor student projects that use Python and JavaScript. Create small automations to simplify grading and feedback.</p>
+                </div>
+                <!-- Add more experience items here if desired -->
+            </section>
+
+            <aside class="card" aria-labelledby="skillsHeading">
+                <h2 id="skillsHeading">Skills</h2>
+                <ul class="skill-list" aria-hidden="false">
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>AWS</li>
+                </ul>
+            </aside>
+
+            <section class="card" aria-labelledby="educationHeading">
+                <h2 id="educationHeading">Education</h2>
+                <div class="edu-item">
+                    <strong>Bachelor of Science</strong>
+                    <div class="muted">Mathematics & Chemistry — University of Washington</div>
+                </div>
+            </section>
+
+            <section class="card" aria-labelledby="projectsHeading">
+                <h2 id="projectsHeading">Representative Projects & Tools</h2>
+                <dl>
+                    <dt>Classroom Chat and Rewards</dt>
+                    <dd>Built a local-first classroom chat with gamified rewards to track student progress and engagement.</dd>
+
+                    <dt>Automation Scripts</dt>
+                    <dd>ETL helpers and grading automation using Python. Focus on maintainability and testability.</dd>
+                </dl>
+            </section>
+
+            <section class="card" aria-labelledby="accessibilityHeading">
+                <h2 id="accessibilityHeading">Accessibility & Print</h2>
+                <p style="margin:0">This page uses semantic HTML, clear contrast, and print styles. Links include full URLs when printed.</p>
+            </section>
+        </main>
+
+        <footer role="contentinfo" style="margin-top:18px;color:var(--muted);font-size:0.9rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">
+            <div>Available for curriculum development and short-term workshops.</div>
+            <div class="print-hide" style="font-size:0.85rem">Last updated: <!-- simple visual placeholder --> Oct 11, 2025</div>
+        </footer>
+    </div>
+</body>
+</html>
