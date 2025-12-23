@@ -44,17 +44,6 @@ LLM Integration (Local):
 [██████████████████░░░░░░░░░░] 70%
 ```
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,flask,react,tauri,powershell" />
-</p>
-- Flask / Backend APIs  
-  <img src="https://progress-bar.dev/85/?title=Pragmatic%20APIs&width=320" />
-- React / Frontend Engineering  
-  <img src="https://progress-bar.dev/75/?title=Maintainable%20UI&width=320" />
-- Local-First & Offline Systems  
-  <img src="https://progress-bar.dev/80/?title=Reliability&width=320" />
-- LLM Integration (Local Inference)  
-  <img src="https://progress-bar.dev/70/?title=Applied%20AI&width=320" />
 
 ## How I Work
 
