@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-Automation-blue" />
   <img src="https://img.shields.io/badge/Flask-Pragmatic%20APIs-black" />
-  <img src="https://img.shields.io/badge/React-Maintainable%20UI-61DAFB" />
   <img src="https://img.shields.io/badge/Local--First-Offline%20Ready-success" />
   <img src="https://img.shields.io/badge/LLMs-Local%20Inference-purple" />
 </p>
@@ -22,7 +21,7 @@ I design and ship practical software that works in the real world. My focus is o
 ## Technical Strengths
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,flask,react,tauri,powershell" />
+  <img src="https://skillicons.dev/icons?i=python,flask,javascript,tauri,powershell" />
 </p>
 
 **Core Proficiencies**
