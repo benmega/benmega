@@ -1,7 +1,96 @@
-### Hello, World! from Ben Mega 👋
+# Ben Mega
 
-- 🔭 I’m currently working on designing interactive UIs
-- 🤔 I’m looking for help with naming conventions
-- 💬 Ask me about my wallets
-- 😄 Pronouns: he/his/him
-- ⚡ Fun fact: 我會説一點中文
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-Automation-blue" />
+  <img src="https://img.shields.io/badge/Flask-Pragmatic%20APIs-black" />
+  <img src="https://img.shields.io/badge/React-Maintainable%20UI-61DAFB" />
+  <img src="https://img.shields.io/badge/Local--First-Offline%20Ready-success" />
+  <img src="https://img.shields.io/badge/LLMs-Local%20Inference-purple" />
+</p>
+
+## Data Automation Engineer | Software Builder | CS Educator
+
+I design and ship practical software that works in the real world. My focus is on automation, local-first systems, and clean architectures that remain understandable and maintainable long after delivery.
+
+## What I Do
+
+* Build automation-first solutions that reduce manual work
+* Design APIs and applications that favor clarity over complexity
+* Create reliable systems that function with or without internet access
+* Translate complex technical ideas into usable tools and learning experiences
+
+## Technical Strengths
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,flask,react,tauri,powershell" />
+</p>
+
+**Core Proficiencies**
+
+```
+Automation (Python):
+[████████████████████████████░░] 90%
+
+Backend APIs (Flask):
+[█████████████████████████░░░░] 85%
+
+Frontend Engineering (Vanilla JS):
+[████████████████████░░░░░░░░] 75%
+
+Local-First Systems:
+[██████████████████████░░░░░░] 80%
+
+LLM Integration (Local):
+[██████████████████░░░░░░░░░░] 70%
+```
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,flask,react,tauri,powershell" />
+</p>
+- Flask / Backend APIs  
+  <img src="https://progress-bar.dev/85/?title=Pragmatic%20APIs&width=320" />
+- React / Frontend Engineering  
+  <img src="https://progress-bar.dev/75/?title=Maintainable%20UI&width=320" />
+- Local-First & Offline Systems  
+  <img src="https://progress-bar.dev/80/?title=Reliability&width=320" />
+- LLM Integration (Local Inference)  
+  <img src="https://progress-bar.dev/70/?title=Applied%20AI&width=320" />
+
+## How I Work
+
+<details>
+<summary><strong>Engineering Principles</strong></summary>
+
+```
+Simple > Clever
+Explicit > Implicit
+Maintainable > Novel
+```
+
+</details>
+
+<details>
+<summary><strong>What Recruiters Usually Ask</strong></summary>
+
+* Can you work without heavy cloud dependencies? Yes
+* Do you optimize for long-term maintenance? Always
+* Do you balance speed with correctness? Deliberately
+
+</details>
+
+Simple > Clever
+Explicit > Implicit
+Maintainable > Novel
+
+```
+
+## Background
+- Data Automation Engineer
+- Computer Science Teacher
+- Experience bridging production engineering and instruction
+
+---
+
+I value clean problem definitions, honest tradeoffs, and software that continues to deliver value after the excitement fades.
+
+```
